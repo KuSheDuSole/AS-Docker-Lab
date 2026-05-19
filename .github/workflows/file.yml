@@ -6,7 +6,7 @@ on:
       - master
 
 env:
-  IMAGE_NAME: ghcr.io/KuSheDuSole/AS-Docker-Lab/app
+  IMAGE_NAME: ghcr.io/kushedusole/as-docker-lab/app
 
 jobs:
   build-test-push:
