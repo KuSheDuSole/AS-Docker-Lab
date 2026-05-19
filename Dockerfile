@@ -10,6 +10,6 @@ COPY src/ ./src/
 COPY tests/ ./tests/
 ENV PATH=/root/.local/bin:$PATH
 ENTRYPOINT ["uvicorn"]
-CMD ["src.main:app", "--host", "0.0.0.0", "--port", "58529"]
+CMD ["src.main:app", "--host", "0.0.0.0", "--port", "8113"]
 
 
